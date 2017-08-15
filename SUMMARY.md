@@ -6,4 +6,5 @@
   * [STL](chapter1/stl.md)
 * [第二章：图](ji-ben-yu-fa.md)
   * [DFS](ji-ben-yu-fa/dfs.md)
+  * [BFS](ji-ben-yu-fa/bfs.md)
 
