@@ -7,4 +7,6 @@
 * [第二章：图](ji-ben-yu-fa.md)
   * [DFS](ji-ben-yu-fa/dfs.md)
   * [BFS](ji-ben-yu-fa/bfs.md)
+* [第三章：树](di-san-zhang-ff1a-shu.md)
+  * [笛卡尔树](di-san-zhang-ff1a-shu/di-qia-er-shu.md)
 
