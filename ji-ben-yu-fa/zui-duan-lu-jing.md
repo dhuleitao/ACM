@@ -6,6 +6,44 @@ meset\(a,0x3f,sizeof\(a\)\);
 
 # Dijkstra单源点最短路径
 
+模板总结：
+
+1、Dijkstra\(int n,int x\) int map\[110\]\[110\],dis\[110\],visited\[110\];  
+
+```
+2、for (i=1;i<=n;i++)  
+{
+dis[i]=map[1][i];
+visited[i]=0;
+}
+visited[x]=1;
+```
+
+```
+3、for (i=1;i<=n;i++)  //大循环
+    {  
+        min=INF;  
+        for (j=1;j<=n;j++)  
+        {  
+            if(!visited[j] && dis[j]<min)  
+            {  
+                p=j;  
+                min=dis[j];  
+            }  
+        }  
+        visited[p]=1;  
+        for (j=1;j<=n;j++)  
+        {  
+            if(!visited[j] && dis[p]+map[p][j]<dis[j])  
+            {  
+                    dis[j]=dis[p]+map[p][j];  
+            }  
+        }  
+    }  
+
+
+```
+
 ```
 #include<iostream>  
 #include<cstdio>  
@@ -13,7 +51,7 @@ meset\(a,0x3f,sizeof\(a\)\);
 using namespace std;  
 #define INF 0x3f3f3f3;  
 int map[110][110],dis[110],visited[110];  
-  
+
 void Dijkstra(int n,int x)  
 {  
     int i,p,j,min;  
@@ -43,9 +81,9 @@ void Dijkstra(int n,int x)
             }  
         }  
     }  
-      
+
 }  
-  
+
 int main()  
 {  
     int n,m,i,j,a,b,t;  
@@ -67,12 +105,28 @@ int main()
         printf("%d\n",dis[n]);  
     }  
     return 0;  
-}  
+}
 ```
 
-
-
 # Flyod所有顶点之间的最短路径
+
+模板总结：
+
+```
+for (k=1;k<=n;k++)
+{
+for (i=1;i<=n;i++)
+{
+for (j=1;j<=n;j++)
+{
+if (dis[i][j]>dis[i][k]+dis[k][j])  
+{
+dis[i][j]=dis[i][k]+dis[k][j];
+}
+}
+}
+}
+```
 
 ```
 #include <iostream>  
@@ -113,7 +167,7 @@ int main()
         printf("%d\n",dis[1][n]);              
     }  
     return 0;  
-}  
+}
 ```
 
 
