@@ -10,6 +10,7 @@
   * [MST](ji-ben-yu-fa/mst.md)
   * [最短路径](ji-ben-yu-fa/zui-duan-lu-jing.md)
   * [拓扑排序](ji-ben-yu-fa/tuo-pu-pai-xu.md)
+  * [欧拉回路](ji-ben-yu-fa/ou-la-hui-lu.md)
 * [第三章：树](di-san-zhang-ff1a-shu.md)
   * [笛卡尔树](di-san-zhang-ff1a-shu/di-qia-er-shu.md)
   * [基本操作](di-san-zhang-ff1a-shu/ji-ben-cao-zuo.md)
