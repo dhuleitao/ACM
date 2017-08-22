@@ -12,5 +12,35 @@
 
 性质4：具有n个结点的完全二叉树的深度为 ![](/assets/import5.png)
 
-![](/assets/import6.png)
+# ![](/assets/import6.png)
+
+# 树的路径长度：树中所有结点的路径长度之和；一般记为PL。
+
+# 结点的带权路径长度：从根到该结点的路径长度与该结点权的乘积；
+
+# 树的带权路径长度也称为树的代价。
+
+
+
+# 1、中序非递归遍历二叉树
+
+```
+void InOrder ( BinTree T ) 
+{
+    stack S;   InitStack( &S );    //递归工作栈
+    BinTreeNode *p = T;           //初始化
+    while ( p != NULL || !StackEmpty(&S) ) {
+	if( p != NULL ) 
+            { Push(&S, p);   p = p->leftChild; }
+        else{         
+            Pop(&S, p);                         //退栈
+            printf( p->data) ;   //访问根
+            p = p->rightChild;               
+        } //if
+    } //while
+ return ok;
+} //InOrder
+```
+
+
 
