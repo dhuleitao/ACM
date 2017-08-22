@@ -14,4 +14,5 @@
 * [第三章：树](di-san-zhang-ff1a-shu.md)
   * [笛卡尔树](di-san-zhang-ff1a-shu/di-qia-er-shu.md)
   * [基本操作](di-san-zhang-ff1a-shu/ji-ben-cao-zuo.md)
+  * [哈夫曼树](di-san-zhang-ff1a-shu/ha-fu-man-shu.md)
 

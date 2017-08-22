@@ -20,7 +20,7 @@
 
 # 树的带权路径长度也称为树的代价。
 
-
+# 则带权路径长度最小\(即代价最小\)的二叉树称为赫夫曼树，或最优二叉树。
 
 # 1、中序非递归遍历二叉树
 
@@ -30,7 +30,7 @@ void InOrder ( BinTree T )
     stack S;   InitStack( &S );    //递归工作栈
     BinTreeNode *p = T;           //初始化
     while ( p != NULL || !StackEmpty(&S) ) {
-	if( p != NULL ) 
+    if( p != NULL ) 
             { Push(&S, p);   p = p->leftChild; }
         else{         
             Pop(&S, p);                         //退栈
@@ -41,6 +41,12 @@ void InOrder ( BinTree T )
  return ok;
 } //InOrder
 ```
+
+# 2、哈夫曼编码
+
+#### 任何字符编码都不是其它字符编码的前缀：前缀编码
+
+
 
 
 
