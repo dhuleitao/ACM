@@ -29,7 +29,7 @@ int main(){
     return 0;}
 ```
 
-#  uva 548 - Tree 中序后序建树
+# uva 548 - Tree 中序后序建树
 
 
 
