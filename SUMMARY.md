@@ -7,6 +7,7 @@
   * [字符串](chapter1/zi-fu-chuan.md)
   * [STL之stack](chapter1/stlzhi-stack.md)
   * [STL之queue](chapter1/stlzhi-queue.md)
+  * [STL-next\_permutation](chapter1/stl-nextpermutation.md)
 * [第二章：图](ji-ben-yu-fa.md)
   * [DFS](ji-ben-yu-fa/dfs.md)
   * [BFS](ji-ben-yu-fa/bfs.md)
@@ -20,4 +21,5 @@
   * [哈夫曼树](di-san-zhang-ff1a-shu/ha-fu-man-shu.md)
 * [练习题](lian-xi-ti.md)
   * [poj3669\(BFS\)](lian-xi-ti/poj3669bfs.md)
+  * [poj1979\(DFS\)](lian-xi-ti/poj1979dfs.md)
 
