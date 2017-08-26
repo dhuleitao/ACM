@@ -22,4 +22,5 @@
 * [练习题](lian-xi-ti.md)
   * [poj3669\(BFS\)](lian-xi-ti/poj3669bfs.md)
   * [poj1979\(DFS\)](lian-xi-ti/poj1979dfs.md)
+* [动态规划](dong-tai-gui-hua.md)
 
