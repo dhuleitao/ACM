@@ -18,4 +18,6 @@
   * [笛卡尔树](di-san-zhang-ff1a-shu/di-qia-er-shu.md)
   * [基本操作](di-san-zhang-ff1a-shu/ji-ben-cao-zuo.md)
   * [哈夫曼树](di-san-zhang-ff1a-shu/ha-fu-man-shu.md)
+* [练习题](lian-xi-ti.md)
+  * [poj3669\(BFS\)](lian-xi-ti/poj3669bfs.md)
 
