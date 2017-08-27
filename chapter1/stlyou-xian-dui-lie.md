@@ -10,7 +10,7 @@ void pop\(\);    //删除优先级队列的第一个值，前提是队列非空�
 
 **priority\_queue&lt;Type,**[**Container**](http://lib.csdn.net/base/docker)**, Functional&gt;**
 
- 如果我们把后面俩个参数缺省的话，优先队列就是大顶堆，队头元素最大。（这点由上面的程序可以看出）
+如果我们把后面俩个参数缺省的话，优先队列就是大顶堆，队头元素最大。（这点由上面的程序可以看出）
 
 ```
 其实就三种用法
@@ -72,20 +72,20 @@ bool operator<( Node a, Node b ){
 
 int main(){
     priority_queue<Node> q;
-    
+
     for( int i= 0; i< 10; ++i )
     q.push( Node( rand(), rand() ) );
-    
+
     while( !q.empty() ){
         cout << q.top().x << ' ' << q.top().y << endl;
         q.pop();
     }
-    
+
     getchar();
     return 0;
 }
 
- 
+
 
 或者这样定义也是能达到效果的：
 
@@ -123,28 +123,26 @@ struct Node{
 struct cmp{
     bool operator() ( Node a, Node b ){
         if( a.x== b.x ) return a.y> b.y;
-        
+
         return a.x> b.x; }
 };
 
 int main(){
     priority_queue<Node, vector<Node>, cmp> q;
-    
+
     for( int i= 0; i< 10; ++i )
     q.push( Node( rand(), rand() ) );
-    
+
     while( !q.empty() ){
         cout << q.top().x << ' ' << q.top().y << endl;
         q.pop();
     }
-    
+
     getchar();
     return 0;
 }
 
 还有一点要注意的是priority_queue中的三个参数，后两个可以省去，因为有默认参数，不过如果，有第三个参数的话，必定要写第二个参数。
-
-
 ```
 
 
