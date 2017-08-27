@@ -24,6 +24,6 @@
   * [poj3669\(BFS\)](lian-xi-ti/poj3669bfs.md)
   * [poj1979\(DFS\)](lian-xi-ti/poj1979dfs.md)
   * [poj3253\(哈夫曼\)](lian-xi-ti/poj3253ha-fu-66fc29.md)
-  * [POJ3624（背包问题）](lian-xi-ti/poj3624ff08-bei-bao-wen-ti-ff09.md)
+  * [POJ3624（01背包问题）](lian-xi-ti/poj3624ff08-bei-bao-wen-ti-ff09.md)
 * [贪心法](dong-tai-gui-hua.md)
 

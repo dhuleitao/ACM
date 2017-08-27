@@ -20,7 +20,7 @@ int main()
                 dp[j]=max(dp[j],dp[j-w[i]]+p[i]);  
         printf("%d\n",dp[c]);  
     }  
-}  
+}
 ```
 
 
