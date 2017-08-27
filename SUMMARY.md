@@ -8,6 +8,7 @@
   * [STL之stack](chapter1/stlzhi-stack.md)
   * [STL之queue](chapter1/stlzhi-queue.md)
   * [STL-next\_permutation](chapter1/stl-nextpermutation.md)
+  * [STL-优先队列](chapter1/stlyou-xian-dui-lie.md)
 * [第二章：图](ji-ben-yu-fa.md)
   * [DFS](ji-ben-yu-fa/dfs.md)
   * [BFS](ji-ben-yu-fa/bfs.md)
